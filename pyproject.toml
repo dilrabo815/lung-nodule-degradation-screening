@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lungdeg"
+version = "0.2.0"
+description = "Degradation-aware lung nodule malignancy screening on CT (LUNA25)"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "torch>=2.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["slow: end-to-end synthetic run (~2 min on GPU)"]

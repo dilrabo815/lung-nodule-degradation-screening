@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+# data and large artefacts never go in git
+/data/
+*.npy
+*.npz
+*.pth
+*.zip
+*.zip.0*
+/runs/
