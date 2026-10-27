@@ -1,0 +1,9 @@
+{
+  "temperature": 1.6846921909838022,
+  "threshold": 0.19536018972826613,
+  "threshold_logit": -2.3847656183599986,
+  "coverage": 0.8,
+  "dev_calib_n": 225,
+  "dev_thresh_n": 190,
+  "head_fit_views": 3241
+}

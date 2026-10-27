@@ -1,3 +1,83 @@
 {
-  "runs": []
+  "runs": [
+    "aug_s2025",
+    "baseline_s2025",
+    "directional_s2025",
+    "symmetric_s2025"
+  ],
+  "clean_test": {
+    "aug": {
+      "auroc": 0.852,
+      "auprc": 0.535,
+      "sensitivity": 0.901,
+      "specificity": 0.661,
+      "auroc_ci_lo": 0.787,
+      "auroc_ci_hi": 0.909
+    },
+    "baseline": {
+      "auroc": 0.85,
+      "auprc": 0.483,
+      "sensitivity": 0.889,
+      "specificity": 0.617,
+      "auroc_ci_lo": 0.794,
+      "auroc_ci_hi": 0.903
+    },
+    "directional": {
+      "auroc": 0.85,
+      "auprc": 0.49,
+      "sensitivity": 0.926,
+      "specificity": 0.569,
+      "auroc_ci_lo": 0.784,
+      "auroc_ci_hi": 0.909
+    },
+    "symmetric": {
+      "auroc": 0.85,
+      "auprc": 0.453,
+      "sensitivity": 0.938,
+      "specificity": 0.555,
+      "auroc_ci_lo": 0.799,
+      "auroc_ci_hi": 0.899
+    }
+  },
+  "mean_auroc_heldout_degradations": {
+    "aug": 0.823,
+    "baseline": 0.844,
+    "directional": 0.832,
+    "symmetric": 0.833
+  },
+  "flr_mean_heldout": {
+    "aug|confidence": 8.75,
+    "aug|consistency": 12.88,
+    "aug|error_head": 6.25,
+    "aug|none": 13.62,
+    "aug|ood": 11.25,
+    "baseline|confidence": 7.62,
+    "baseline|consistency": 11.75,
+    "baseline|error_head": 9.0,
+    "baseline|none": 13.25,
+    "baseline|ood": 11.0,
+    "directional|confidence": 7.25,
+    "directional|consistency": 9.25,
+    "directional|error_head": 7.62,
+    "directional|none": 9.88,
+    "directional|ood": 8.88,
+    "symmetric|confidence": 5.5,
+    "symmetric|consistency": 9.0,
+    "symmetric|error_head": 6.25,
+    "symmetric|none": 9.25,
+    "symmetric|ood": 7.12
+  },
+  "relative_flr_reduction_vs_aug_confidence": 0.129,
+  "best_dev_auroc": {
+    "aug_s2025": 0.884,
+    "baseline_s2025": 0.87,
+    "directional_s2025": 0.871,
+    "symmetric_s2025": 0.861
+  },
+  "epoch_seconds": {
+    "aug_s2025": 57.2,
+    "baseline_s2025": 51.9,
+    "directional_s2025": 109.8,
+    "symmetric_s2025": 109.8
+  }
 }

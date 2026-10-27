@@ -1,0 +1,5 @@
+method,confidence,consistency,error_head,none,ood
+baseline,7.625,11.75,9.0,13.25,11.0
+aug,8.75,12.875,6.25,13.625,11.25
+symmetric,5.5,9.0,6.25,9.25,7.125
+directional,7.25,9.25,7.625,9.875,8.875

@@ -20,6 +20,27 @@
     "0": 63.3,
     "1": 64.0
   },
+  "missing_block_files": 0,
+  "missing_block_examples": [],
+  "block_shapes": {
+    "(64, 128, 128)": 6163
+  },
+  "slice_spacing_mm_quantiles": [
+    0.5,
+    1.8,
+    2.0,
+    2.0,
+    3.2
+  ],
+  "inplane_spacing_mm_quantiles": [
+    0.46,
+    0.61,
+    0.66,
+    0.7,
+    0.98
+  ],
+  "thick_slices_ge_2mm": 4224,
+  "blocks_shorter_than_crop_in_z": 76,
   "columns": {
     "patient": "PatientID",
     "series": "SeriesInstanceUID",
