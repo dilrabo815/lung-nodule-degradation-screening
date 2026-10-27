@@ -1,0 +1,26 @@
+[
+  {
+    "split": "train",
+    "patients": 1484,
+    "nodules": 2645,
+    "observations": 4364,
+    "malignant": 392,
+    "malignant_%": 9.0
+  },
+  {
+    "split": "dev",
+    "patients": 318,
+    "nodules": 559,
+    "observations": 878,
+    "malignant": 82,
+    "malignant_%": 9.3
+  },
+  {
+    "split": "test",
+    "patients": 318,
+    "nodules": 558,
+    "observations": 921,
+    "malignant": 81,
+    "malignant_%": 8.8
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "observations": 6163,
+  "malignant": 555,
+  "benign": 5608,
+  "patients": 2120,
+  "series": 4069,
+  "nodules": 3762,
+  "duplicate_annotation_ids": 0,
+  "obs_per_nodule": {
+    "1": 2159,
+    "2": 805,
+    "3": 798
+  },
+  "nodules_with_repeats": 1603,
+  "nodules_with_conflicting_labels": 0,
+  "patients_with_both_classes": 0,
+  "imbalance_ratio_benign_per_malignant": 10.1,
+  "rows_with_missing_values": 0,
+  "age_mean_by_label": {
+    "0": 63.3,
+    "1": 64.0
+  },
+  "columns": {
+    "patient": "PatientID",
+    "series": "SeriesInstanceUID",
+    "annotation": "AnnotationID",
+    "nodule": "NoduleID",
+    "label": "label",
+    "study_date": "StudyDate",
+    "age": "Age_at_StudyDate",
+    "gender": "Gender"
+  }
+}
